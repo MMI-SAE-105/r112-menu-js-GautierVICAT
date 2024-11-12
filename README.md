@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Vicat
+- prénom : Gautier
+- URL Netlify : https://iridescent-pika-eb05a8.netlify.app/
 
 # Travail
 
