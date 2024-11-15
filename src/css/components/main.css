@@ -1,0 +1,32 @@
+.header{
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.title{
+    font-size: 3em;
+    font-weight: bold;
+    color: #4e023e;
+}
+.intro{
+    margin-top: 0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.intro h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #4e023e;
+}
+.intro p{
+    font-size: 1.2em;
+    color: #4e023e;
+}
+.intro img{
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+}
