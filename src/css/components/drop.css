@@ -19,7 +19,7 @@
     background-color: #f0f0f0;
 }
 .dropdown-content {
-    padding-top: 15px;
+    padding-top: 5px;
     display: none;
     position: absolute;
     width: 100%;
@@ -78,4 +78,10 @@
       opacity: 1;
       transform: translateY(0);
     }
+}
+.dropdown-langue{
+    width: 80px;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
