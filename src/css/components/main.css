@@ -44,3 +44,12 @@
 .textest{
     padding: 35px;
 }
+.intro-img{
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+.intro-txt{
+    color: #4e023e;
+    text-align: left;
+}
