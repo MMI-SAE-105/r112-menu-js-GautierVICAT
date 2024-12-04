@@ -82,8 +82,9 @@
     }
 }
 .dropdown-langue{
-    width: 80px;
+    width: auto;
     position: fixed;
     right: 0;
     top: 0;
+    gap: 15px;
 }

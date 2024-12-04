@@ -27,11 +27,16 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 
 /* Mise en forme du bouton de menu "Hamburger" */
 .menu-btn {
-  position: relative; /* Positionne le bouton par rapport à son conteneur parent */
+  position: fixed; /* Positionne le bouton par rapport à son conteneur parent */
   z-index: 3; /* Assure que le bouton est au-dessus des autres éléments */
   width: 30px; /* Définit la largeur du bouton à 30px */
   transition: all 0.4s ease-in-out; /* Ajoute une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération */
   z-index: 1000;
+  color: #4e023e;
+  cursor: pointer;
+  background: none;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 /*
@@ -45,4 +50,16 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 .menu {
       display: grid;
       place-content: center;
+}
+button{
+  border: none;
+}
+.menu__item{
+  list-style: none;
+}
+.menu__link{
+  text-decoration: none;
+  color: #4e023e;
+  font-size: 15px;
+  line-height: 1.7;
 }
