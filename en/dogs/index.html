@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chiens</title>
-    <link rel="stylesheet" href="../src/css/style.css">
-    <script type="module" src="../src/js/script.js"></script>
+    <title>Dogs</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
-    <Header class="header-pages">
+    <header class="header container">
+
+        <div class="header__end">
+    
+          <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            ≡
+          </button>
+    
+          <!-- Menu principal -->
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="/fr/dogs/index.html">> The Dogs</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/fr/cats/index.html">> The Cats</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Fin du menu principal -->
+        </div>
+      </header>
+    <div class="header-pages">
         <h1 class="title">Bienvenue sur la page des chiens</h1>
-    </Header>
+    </div>
     <main>
         <div class="dropdown-container">
             <span class="text">Voir les différents chiens</span>
@@ -22,12 +44,22 @@
               </ul>
             </div>
         </div>
+        <div class="dropdown-container dropdown-langue">
+            <span class="text">Languages</span>
+            <span class="arrow-down"></span>
+            <div class="dropdown-content">
+              <ul class="items">
+                <li><a href="/en/dogs/index.html">En</a></li>
+                <li><a href="/fr/dogs/index.html">Fr</a></li>
+              </ul>
+            </div>
+        </div>
         <div class="intro">
-            <h1>Les chiens</h1>
-            <p>Venez voir nos deux fantastiques chiens, vous verrez vous n'allait pas ètre déçu !!!</p>
+            <h1>The Dogs</h1>
+            <p>Come and see our two beautifull dogs, you will not be disapointed !!!</p>
             <img src="/src/public/images/istockphoto-1278389684-612x612.jpg" alt="image de chiens">
         </div>
-        <a class="Retour" href="../index.html">Retour à l'accueil</a>
+        <a class="Retour" href="../index.html">Back to home</a>
     </main>
 </body>
 </html>
